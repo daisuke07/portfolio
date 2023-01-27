@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1><a href="index.html">My Work</a></h1>
+    <nav class="nav"></nav>
+    <ul>
+      <li><a href="#about" class="li01">About</a></li>
+      <li><a href="#works" class="li02">Works</a></li>
+      <li><a href="#news" class="li03">News</a></li>
+      <li><a href="#contact" class="li04">Contact</a></li>
+      <li><a href="https://www.instagram.com/" target="_blank"><img src="img/icon-instagram.png" alt="インスラグラムの画像"
+            class="insta_btn"></a>
+      </li>
+    </ul>
+
+    </nav>
+  </header>
+  <main>
+    <!-- ＝＝＝PC用メイン画像＝＝＝ -->
+    <div>
+      <img src="img/mainvisual-pc.jpg" alt="建物の画像" class="main_img">
+    </div>
+    <!-- ＝＝＝SP用メイン画像＝＝＝ -->
+    <img src="img/mainvisual-sp.jpg" alt="建物の画像" class="main-imgsp">
+
+    <!-- ＝＝＝見出し　About＝＝＝ -->
+    <h1 id="about">About</h1>
+
+
+
+    <!-- ＝＝＝第一セクション＝＝＝ -->
+    <section class="sec01">
+      <ul class="about_ul">
+        <li>Xxxxx Ashley</li>
+        <br>
+        <br>
+        <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+        <li>tel: 000-0000-0000</li>
+        <li>url: www.xxxxxx.jp</li>
+        <li>mail: xxx@xxxxxx.jp</li>
+        <br>
+        <br>
+      </ul>
+      <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    </section>
+
+
+    <!-- ＝＝＝見出し　Works＝＝＝ -->
+    <h1 id="works">Works</h1>
+
+
+    <!-- ＝＝＝第二セクション＝＝＝ -->
+    <section class="sec02">
+      <ul class="works_img">
+        <li><img src="img/works1.jpg" alt="画像"></li>
+        <li><img src="img/works2.jpg" alt="画像"></li>
+        <li><img src="img/works3.jpg" alt="画像"></li>
+        <li><img src="img/works4.jpg" alt="画像"></li>
+        <li><img src="img/works5.jpg" alt="画像"></li>
+        <li><img src="img/works6.jpg" alt="画像"></li>
+      </ul>
+    </section>
+
+
+    <!-- ＝＝＝見出し　News＝＝＝ -->
+    <h1 id="news">News</h1>
+
+
+    <!-- ＝＝＝第三セクション＝＝＝ -->
+    <section class="sec03">
+      <dl class="sec-dl">
+        <dt class="co-dt">2020.XX.XX</dt>
+        <dd class="co-dd">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+        <dt class="co-dt">2020.XX.XX</dt>
+        <dd class="co-dd">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+        <dt class="co-dt">2019.XX.XX</dt>
+        <dd class="co-dd">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+        <dt class="co-dt">2019.XX.XX</dt>
+        <dd class="co-dd">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+        <dt class="co-dt">2019.XX.XX</dt>
+        <dd class="co-dd" id="sec03id">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト
+        </dd>
+      </dl>
+    </section>
+
+    <!-- ＝＝＝見出し　Contact＝＝＝ -->
+    <h1 id="contact">Contact</h1>
+
+    <!-- ＝＝＝第四セクション＝＝＝ -->
+    <section class="sec04">
+      <!-- ＝＝＝コンタクトフォーム＝＝＝ -->
+      <form>
+        <dl class="con-dl">
+          <dt class="con-dt"><label for="name">NAME</label></dt>
+          <dd class="con-dd"><input type="text" id="name" name="name"></dd>
+          <dt class="con-dt"><label for="email">E-mail</label></dt>
+          <dd class="con-dd"><input type="email" id="email" name="email"></dd>
+          <dt class="con-dt"><label for="message">MESSAGE</label></dt>
+          <dd class="con-dd"><textarea id="message" name="message"></textarea></dd>
+        </dl>
+        <div class="btn">
+          <input type="submit" id="submit" value="送信">
+        </div>
+      </form>
+
+    </section>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2020 My Work</p>
+  </footer>
+
+</body>
+
+</html>

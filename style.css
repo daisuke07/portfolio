@@ -1,0 +1,386 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* ＝＝＝ヘッダー内＝＝＝ */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 960px;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+
+}
+
+
+/* ＝＝＝リンクタグ＝＝＝ */
+a {
+  text-decoration: none;
+
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline black;
+}
+
+/* ＝＝＝ナビゲーション＝＝＝ */
+.nav {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ＝＝＝ヘッダー内リスト＝＝＝ */
+header ul {
+  padding: 10px 0;
+}
+
+header li {
+  list-style: none;
+  padding: 10px;
+}
+
+
+/* ＝＝＝リスト内＝＝＝ */
+header ul {
+  display: flex;
+}
+
+
+/* ＝＝＝インスタアイコン＝＝＝ */
+header img {
+  width: 20px;
+}
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/* ＝＝＝ここからメイン＝＝＝ */
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+/* ＝＝＝メイン画像＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/* ＝＝＝PC用レスポンシブ＝＝＝ */
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+@media (min-width:641px) {
+  .main_img {
+    max-width: 1920px;
+    height: 420px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    display: block !important;
+  }
+
+  /* ＝＝spのときにうつらないようにする＝＝＝ */
+  .main-imgsp {
+    display: none !important;
+  }
+
+}
+
+/* ＝＝＝アバウト＝＝＝ */
+#about {
+  text-align: center;
+}
+
+/* ＝＝＝第一セクション＝＝＝ */
+.sec01 {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 140px;
+}
+
+.about_ul {
+  margin-top: 80px;
+  padding-right: 40px;
+}
+
+section li {
+  list-style: none;
+
+
+}
+
+section p {
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+
+
+#works {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* ＝＝＝第二セクション＝＝＝ */
+.sec02 {
+  max-width: 960px;
+  margin-bottom: 120px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.works_img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-left: 0;
+}
+
+
+.works_img li {
+  width: 30%;
+  margin-bottom: 23px
+}
+
+
+.works_img>li>img {
+  width: 100%;
+}
+
+
+/* ＝＝＝第三セクション＝＝＝ */
+.sec03 {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#news {
+  text-align: center;
+  margin-bottom: 88px;
+}
+
+
+.sec-dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: solid 1px gainsboro;
+}
+
+
+
+.co-dt {
+  width: 20%;
+  padding-bottom: 15px;
+  border-bottom: solid 1px gainsboro;
+  padding-top: 15px;
+}
+
+.co-dd {
+  width: 80%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px gainsboro;
+  margin-left: 0;
+}
+
+.sec03id {
+  border-bottom: solid 1px gainsboro;
+}
+
+/* ＝＝＝見出し　Contact＝＝＝ */
+#contact {
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+
+/* ＝＝＝第四セクション＝＝＝ */
+/* ＝＝＝コンタクトフォーム＝＝＝ */
+.sec04 {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+.con-dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  max-width: 960px;
+
+}
+
+.con-dt {
+  width: 15%;
+}
+
+.con-dd {
+  width: 85%;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+.con-dd input {
+  width: 100%;
+  border: solid 1px gainsboro;
+  height: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.con-dd textarea {
+  width: 100%;
+  border: solid 1px gainsboro;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* ＝＝＝送信ボタン＝＝＝ */
+.btn {
+  text-align: center;
+}
+
+
+
+.btn input {
+  width: 220px;
+  color: white;
+  padding: 18px 0;
+  border: solid 1px black;
+  background-color: black;
+}
+
+.btn :active {
+  background-color: antiquewhite;
+}
+
+/* ＝＝＝フッター＝＝＝ */
+footer {
+  text-align: center;
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  max-width: 1920px;
+}
+
+footer p {
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+/* ＝＝＝ここからスマホ用レスポンシブ＝＝＝ */
+/* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+@media (max-width:640px) {
+  header {
+    display: block;
+    text-align: center;
+    height: 80%;
+  }
+
+  ul {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-imgsp {
+    height: 760px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+    display: block !important;
+  }
+
+  /* ＝＝spのときにうつらないようにする＝＝＝ */
+  .main_img {
+    display: none !important;
+  }
+
+  /* ＝＝＝第二セクションの画像を縦に並べる＝＝＝ */
+  .sec02 {
+    max-width: 640px;
+  }
+
+  .works_img {
+    display: block;
+    text-align: center;
+  }
+
+
+  .works_img li {
+    width: 100%;
+    margin-bottom: 23px
+  }
+
+
+  .works_img>li>img {
+    width: 100%;
+  }
+
+  /* ＝＝＝第三セクション＝＝＝ */
+
+  .sec-dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: solid 1px gainsboro;
+  }
+
+
+
+  .co-dt {
+    width: 100%;
+    border: none;
+    padding-bottom: 10px;
+
+  }
+
+  .co-dd {
+    width: 100%;
+    padding-top: 0;
+    border-bottom: solid 1px gainsboro;
+  }
+
+  /* ＝＝＝コンタクトフォーム＝＝＝ */
+  .con-dl {
+    display: block;
+    margin: 16px;
+  }
+
+  .con-dt {
+    width: 100%;
+  }
+
+  .con-dd {
+    width: 100%;
+  }
+
+
+
+
+}
