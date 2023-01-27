@@ -222,8 +222,6 @@ section p {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
-  max-width: 960px;
-
 }
 
 .con-dt {
